@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="WildTones">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#287C42"/>
+      <stop offset="1" stop-color="#DCEBDF"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0E1A26" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="26" fill="url(#g)"/>
+  <g filter="url(#s)" fill="#FAF8F1">
+    <circle cx="45" cy="47" r="8.5"/>
+    <circle cx="63" cy="40" r="8.5"/>
+    <circle cx="81" cy="47" r="8.5"/>
+    <path d="M47 86c0-12.2 7.6-19.6 17-19.6S81 73.8 81 86c0 10.2-6.9 18.3-17 18.3S47 96.2 47 86z"/>
+    <path d="M90.5 52v26.5c0 6.1-4.9 11-11 11-3.8 0-7-2.9-7-6.5 0-3.9 3.5-7.1 7.9-7.1 2.2 0 4.2.6 5.6 1.6V51.2c0-1.8 1.5-3.2 3.2-3.2h11.7c1.8 0 3.2 1.5 3.2 3.2 0 1.8-1.5 3.2-3.2 3.2H90.5z"/>
+  </g>
+</svg>
